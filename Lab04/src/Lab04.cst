@@ -1,0 +1,24 @@
+//
+// FAP201 Lab04: Debouncing a Switch
+// Target: GW5A-LV25UG324C2/I1
+// Board: Xiaomeige ACG525
+// ================================================================
+//
+
+// 1. Xung nhịp Clock 50MHz
+IO_LOC "clk" T9;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+// 2. Nút nhấn (Input) - Cấu hình điện trở kéo lên (PULL_MODE=UP)
+IO_LOC "i_sw_raw" B16;
+IO_PORT "i_sw_raw" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+IO_LOC "i_rst" C15;
+IO_PORT "i_rst" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+// 3. Đèn LED (Output) - Tắt kéo lên, cấp dòng Drive 8mA
+IO_LOC "o_led" D14;
+IO_PORT "o_led" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+IO_LOC "o_dbg_stable" C14;
+IO_PORT "o_dbg_stable" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
