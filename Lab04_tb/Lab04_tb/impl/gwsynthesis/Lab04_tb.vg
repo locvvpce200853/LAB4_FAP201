@@ -1,0 +1,34 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.03 Education"
+//Fri Nov  6 17:58:52 2026
+
+//Source file index table:
+//file0 "\D:/Lab_FAP201/Lab04_tb/Lab04_tb/sim/Lab04_tb.vhd"
+//file1 "\D:/Lab_FAP201/Lab04_tb/Lab04_tb/src/Lab04.vhd"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+q0zCP1/H/DlLv8ayzVGP8G8DYn3FxYsMIQcutbaizQXloF/6n9FQST6plf+SdTklqCGnj3yUSufM
+hlN7ydZoqXAYdSOD2PHc4sUn6JZXQHGnuhKDET8CdU156f6mH/EaOjvAOVZXCMy2kWzqTZpy0nIR
+lxJbRmAoZbUZnsddQLECyE7IfoEpAHuu48pKPe3aeOkzUoLguk9JA+lTWuiO9F0k+9k9VUuE4E+T
+tfkgrN1utMDjNkY/1y71Hxz16VvG77WCJAMmeaWcd3tI+dxL6xDVdUzP/kAh7LzFaVuWxcnPb7dm
+0qK3OCByml+JDk7T7u8H5fKdNin6EC1kti4+3Q==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=208)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+o4ov4drvIudrk26X4eeU/WXpOAYrKO0T7Xs1fIa6PTQjxsF4HhjWwKYvR73iK2gaVxzxTF2YIASw
+R2V0WWn26zVMzQP+aMr050QhyVxePpdMpC1Ddkk4hv2J1bJkJDtjr5Vo0622yHjHmuQ/Wfyfu2cQ
+snRSypQTa6t7qML1/oBbCsBDo/VDl8zvNIa60MptIM4vOLvf2QgmItuQntfRanQGQqkla96XgBLE
+pMBWWUmMXgut5MjovxAYGu/mSLgZF5ZIfGRmSHlFRfY05HCByg==
+`pragma protect end_protected

@@ -1,0 +1,57 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'D:\Lab_FAP201\Lab04_tb\Lab04_tb\src\Lab04.vhd'
+Analyzing entity 'lab04'("D:\Lab_FAP201\Lab04_tb\Lab04_tb\src\Lab04.vhd":5)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\Lab04_tb\Lab04_tb\src\Lab04.vhd":19)
+Analyzing VHDL file 'D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd'
+Analyzing entity 'lab04_tb'("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":11)
+Analyzing architecture 'sim'("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":14)
+Statement containing an event control without an edged expression will not be converted to an explicit state machine("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":78)
+Processing 'lab04_tb(sim)'("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":11)
+WARN  (EX4225) : Delay is ignored for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":21)
+Processing 'lab04(stable_cycles=5)(rtl)'("D:\Lab_FAP201\Lab04_tb\Lab04_tb\src\Lab04.vhd":5)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":32)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":33)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":38)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":39)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":40)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":41)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":42)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":47)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":51)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":52)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":53)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":54)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":55)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":59)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":63)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":64)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":65)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":67)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":68)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":69)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":72)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":73)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":77)
+NOTE  (EX0101) : Current top module is "lab04_tb"
+WARN  (EX0203) : Top module "lab04_tb" has no ports("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":11)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "lab04" instantiated to "DUT" is swept in optimizing("D:\Lab_FAP201\Lab04_tb\Lab04_tb\sim\Lab04_tb.vhd":23)
+[95%] Generate netlist file "D:\Lab_FAP201\Lab04_tb\Lab04_tb\impl\gwsynthesis\Lab04_tb.vg" completed
+[100%] Generate report file "D:\Lab_FAP201\Lab04_tb\Lab04_tb\impl\gwsynthesis\Lab04_tb_syn.rpt.html" completed
+GowinSynthesis finish
